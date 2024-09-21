@@ -1,0 +1,73 @@
+.jp-title{
+  display: flex;
+  flex-direction: row;
+}
+.p-skills {
+  display: flex;
+  flex-direction: row;
+}
+.post-p{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  background-color: #D8E6ED;
+  height: 100vh;
+
+}
+.jobpost-container{
+  margin-top: 10%;
+  height: 650px;
+  width: 850px;
+  background-color: white;
+  border-radius: 18px;
+  padding: 3rem;
+}
+.p-h1{
+  font-size: 33px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+.jb-close{
+  margin-left: 24rem;
+  cursor: pointer;
+}
+
+.field_0,.field_1,.field_3,.field_4,.field_5,.field_6,.field_7,.field_8,.field_9,.field_2{
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
+  margin-top: 0.5rem;
+
+}
+.jp-i0,.jp-i1,.jp-i2,.jp-i3,.jp-i4,.jp-i5,.jp-i6,.jp-i7,.jp-i8,.jp-i9{
+  height: 33px;
+  width: 220px;
+  border-radius: 8px;
+  background-color: #D8E6ED;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+  margin-top: 0.2rem;
+}
+.jp-i4{
+  height: 100px;
+  width: 500px;
+}
+.jb-but{
+  font-weight: 600;
+  font-size: 20px;
+  height: 40px;
+  width: 130px;
+  border-radius: 10px;
+  border-style: solid;
+  border: 0;
+  margin-left: 85%;
+}
+.jb-but:hover{
+  background-color: #0571D3;
+  color: white;
+  cursor: pointer;
+}

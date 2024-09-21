@@ -1,0 +1,142 @@
+.body-bid {
+  height: fit-content;
+  background-color: #BAD5C0;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+.bd-box1{
+  height: 250px;
+  width: 400px;
+  background-color: white;
+  color: black;
+  border-radius: 12px; 
+  margin-top: 4rem;
+  margin-left: 3rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.bd-box2{
+  height: 250px; 
+  width: 1050px;
+  background-color: white;
+  color: black;
+  border-radius: 12px; 
+  margin-bottom: 2rem;
+  margin-left: 3rem;
+  margin-left: 3rem;
+  padding: 2rem;
+}
+.bd-box3{ 
+  height: 450px;
+  width: 520px;
+  background-color: white;
+  color: black;
+  border-radius: 12px;
+  margin-left: 3rem;
+  padding: 2rem;
+  margin-left: 3rem;
+}
+.bd-b1{
+  font-size: 30px;
+  font-weight: 600;
+}
+.bd-b2{
+  font-size: 18px;
+  margin-top: 0.3rem;
+  font-weight: 600;
+  width:300px ;
+} 
+.bd-b3{
+  font-size: 12px;
+  color: #737373;
+  margin-top: 0.1rem;
+}
+.bd-work {
+  margin-top: 0.8rem;
+}
+.bd-b-c1{
+  font-size:18px;
+  font-weight: 600;
+}
+.bd-b-c2{
+  font-size: 15px;
+  margin-top: 0.6rem;
+}
+.bd-b-c3{
+  font-size: 13px;
+  margin-left: 1.2rem;
+  width: 300px;
+  margin-top: 0.3rem;
+  color: #737373;
+}
+.bd-b-ch{
+  margin-top: 1rem;
+  display: flex;
+}
+.bd-b-ch1{
+  margin-left: 4rem;
+}
+.bd-b-c4{
+  display: flex;
+  flex-direction: column;
+}
+.bd-b-c6-1{
+  display: flex;
+  margin-top: 0.8rem;
+}
+.bd-b-c7-1{
+  margin-left: 3rem;
+  font-size: 12px;
+  margin-top: 0.2rem;
+  color:#737373;
+}
+.bd-b-i1{
+  height: 35px;
+  width: 250px;
+  margin-left: 1.2rem;
+  margin-top: 0.5rem;
+  border-radius: 18px;
+  padding: 0.5rem;
+  border-width: 1px;
+}
+.bd-b-c7{
+  font-size:18px;
+  font-weight: 600;
+}
+.bd-b-i2{
+  height: 250px;
+  width: 380px;
+  margin-top: 0.5rem;
+  border-radius: 12px;
+  border-width: 1px;
+  padding: 0.5rem;
+}
+.bd-b-c8{
+  font-size:18px;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+.bd-b-i3{
+  height: 35px;
+  width: 250px;
+  margin-top: 0.5rem;
+  border-radius: 18px;
+  padding : 0.5rem;
+  border-width: 1px;
+}
+.bd-button-1{
+  height: 50px;
+  width: 150px;
+  font-size: 25px;
+  margin-left: 85%;
+  margin-bottom: 3rem;
+  border-radius: 12px;
+  border-style: solid;
+  border-width: 0;
+}
+.bd-button-1:hover{
+  background-color: #737373;
+  cursor: pointer;
+  color: white;
+}

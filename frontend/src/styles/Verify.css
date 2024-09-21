@@ -1,0 +1,96 @@
+.body1 {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  height: 100vh;
+}
+.email-verification-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  height: 90vh;
+  width: 90vw;
+  margin-top: 2.5rem;
+
+}
+.email-verification-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.email-image {
+  margin-top: 10px;
+  width: 190px;
+  height: auto;
+}
+
+.h2 {
+  font-size: 43px;
+  font-weight: 550;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.p1 {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.verification-input {
+  width: 375px;
+  border: 1px solid #ddd;
+  padding: 12px;
+
+  border-radius: 5px;
+  font-size: 16px;
+}
+.bx{
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+  border-color: #BAD5C0;
+  border-style: solid;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(181, 229, 248, 0.1);
+  top: 404px;
+  margin-left: 0.5rem;
+  left: 820px;
+}
+.bx:hover {
+  cursor: pointer;
+  background-color: #BAD5C0;
+}
+.input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resend-container {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 830px;
+  margin-left: 28rem;
+}
+.verifybox{
+  display: flex;
+  flex-direction: row;
+  margin-left: 28rem;
+  margin-top: 1rem;
+}
+.resend-container:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+

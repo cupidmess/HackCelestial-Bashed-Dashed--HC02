@@ -1,0 +1,140 @@
+/* Feedback.css */
+
+/* Feedback container */
+.feedback-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Feedback form title */
+.fb-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  background-color: #C8E8F1;
+  height: 470px;
+  width: 550px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2), -5px -5px 10px rgba(0, 0, 0, 0.2);
+}
+.fb-tit{
+  font-size: 3rem;
+  font-weight: 600;
+  padding-top: 1rem;
+}
+.cmt-input-2{
+  width: 15px;
+}
+.inputs-cmt{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #C8E8F1;
+}
+/* Star rating container */
+.star-rating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Stars container */
+.stars {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* Hide radio buttons */
+.star-rating input[type="radio"] {
+  display: none;
+}
+
+/* Default star appearance */
+.star {
+  font-size: 2.5rem;
+  color: lightgray;
+  cursor: pointer;
+  transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+/* Filled star appearance */
+.star.filled {
+  color: gold;
+}
+
+/* Hover effect */
+.star:hover {
+  transform: scale(1.2);
+  color: gold;
+}
+
+/* Click effect */
+.star:active {
+  transform: scale(0.9); /* Slightly shrink when clicked */
+  transition: transform 0.1s ease-in-out;
+}
+
+/* Rating text */
+.rate {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+.rate-user{
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.rate-cmt{
+  font-size: 1.2rem;
+}
+.cmt-input{
+  height: 130px;
+  width: 230px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  border-style: solid;
+  border: 0;
+}
+.rate-but{
+  margin-left:30%;
+}
+.rate-but-1{
+  font-size: 17px;
+  height: 40px;
+  width: 180px;
+  border-radius: 18px;
+  border: 0;
+  border-style: solid;
+  background-color: #C8E8F1;
+  color: grey;
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+.rate-but-1:hover{
+  background-color: #0571D3;
+  color: white;
+  cursor: pointer;
+}
+.rate-but-2{
+  font-size: 17px;
+  height: 40px;
+  width: 100px;
+  border-radius: 18px;
+  border: 0;
+  border-style: solid;
+  background-color: #0571D3;
+  color: white;
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+.rate-but-2:hover{
+  cursor: pointer;
+}
+.bd-b-i4{
+  margin-top: 0.2rem;
+  width: 15px;
+}

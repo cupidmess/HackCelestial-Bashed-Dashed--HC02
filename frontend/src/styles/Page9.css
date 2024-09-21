@@ -1,0 +1,142 @@
+.body-09 {
+  margin: 0;
+  padding: 0;
+  height: 95%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.h-09 {
+  text-align: left;
+  height: 20vh;
+  width: 100%;
+  margin: 30px 0px;
+}
+
+.l-09 {
+  width: 99%;
+  margin: 30px auto;
+}
+
+.st-09 {
+  margin: 0px 0px 0px 30px;
+}
+
+.head-09 {
+  margin: 20px 0px 0px 30px;
+}
+
+.main-09 {
+  text-align: left;
+  height: auto;
+  width: 98%;
+  display: flex;
+}
+.box2-09{
+  display: flex;
+  margin-top: 15px;
+}
+.profile-09 {
+  width: 80px;
+  height: 80px;
+  background-color: rgb(172, 168, 168);
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.date-09, .street-09, .pin-09, .city-09 {
+  margin: 10px 0 5px 20px;
+  font-weight: bold;
+}
+.street-09{
+  margin-top: 20px;
+}
+
+.dob-09{
+  padding-left: 0.5rem;
+  width: 300px;
+  margin: 0 20px;
+  height: 35px;
+  border-radius: 7px;
+  border: 1px solid gray;
+}
+.city-input-09,.pin-input-09{
+  padding-left: 0.5rem;
+  width: 200px;
+  margin: 0 20px;
+  height: 35px;
+  border-radius: 6px;
+  border: 1px solid gray;
+}
+.street-input-09{
+  padding-left: 0.5rem;
+  width: 600px;
+  margin: 0 20px;
+ height: 35px;
+ border-radius: 10px;
+ border: 1px solid gray;
+}
+
+.foot-09 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+  margin-top: 82px;
+}
+
+.btn-09 {
+  height: 45px;
+  padding: 0 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid gray;
+  margin-top: 6rem;
+}
+.btn-09:hover{
+  cursor: pointer;
+  background-color: gray;
+  color: white;
+}
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+  .dob, .street-input, .pin-input, .city-input {
+    width: calc(100% - 40px);
+  }
+}
+
+/* Media query for mobile phones */
+@media (max-width: 480px) {
+  .h {
+    margin: 20px 0px;
+  }
+
+  .l {
+    margin: 20px auto;
+  }
+
+  .profile {
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+  }
+
+  .date, .street, .pin, .city {
+    margin-left: 20px;
+    font-size: 14px;
+  }
+
+  .dob, .street-input, .pin-input, .city-input {
+    width: calc(100% - 40px);
+    height: 30px;
+    margin-left: 20px;
+  }
+
+  .btn {
+    height: 40px;
+    width: auto;
+    font-size: 14px;
+    margin-right: 20px;
+  }
+}

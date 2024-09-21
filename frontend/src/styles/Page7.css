@@ -1,0 +1,167 @@
+.experience-container-07 {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-07 {
+ margin: 50px 50px 0 50px;
+ text-align: left;
+ margin-bottom: 1rem;
+}
+
+.header-07 span {
+  font-size: 18px;
+  color: #888;
+}
+
+.header-07 h2 {
+  font-size: 35px;
+  font-weight: normal;
+  margin-top: 15px;
+}
+.Line-07{
+  width: 100%;
+  margin-top: none;
+  background-color: #333;
+  margin-bottom: 2.5rem;
+}
+
+.add-experience-card-07 {
+  width: 380px;
+  height: 250px;
+  border: 1px dashed #b3c7ce;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 50px 0px 50px;
+  flex-direction: column;
+  background-color: #f5fafa;
+  position: relative;
+  border-radius: 1.5rem;
+}
+
+.add-button-07 {
+  width: 60px;
+  height: 60px;
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+.add-button-07:hover{
+  cursor: pointer;
+  background-color: #333;
+}
+.Add-07{
+  font-weight: 600;
+  color: black;
+}
+
+.add-button-07 span {
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+}
+
+.add-experience-card-07 p {
+  color: black;
+  font-size: 20px;
+  font-weight: 100;
+  margin: 0;
+}
+
+.footer-07 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+  margin-top: 8rem;
+}
+
+.footer-right-07 {
+  display: flex;
+  align-items: center;
+
+}
+
+
+
+.back-button-07 {
+  background-color: white;
+  color: black;
+  margin-left: 10px;
+  width: 100px;
+  border: 1px solid rgb(178, 225, 243);
+  border-radius: 8px;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.back-button-07:hover{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.skip-button-07 {
+  background-color: transparent;
+  color: black;
+  font-weight: 500;
+  margin-right: 10px;
+  width: 100px;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.skip-button-07:hover{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.next-button-07 {
+  background-color: #d9e7ef;
+  color: black;
+  margin-right: 10px;
+  width: 100px;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.next-button-07:hover{
+  cursor: pointer;
+  background-color:#007bff;
+  color: white;
+}
+.in-p-2,.in-p-3,.in-p-4,.in-p-5,.in-p-6,.in-p-7{
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  margin-right: 5rem;
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+.skill-input-07-1,.skill-input-07-2,.skill-input-07-3,.skill-input-07-4,.skill-input-07-5,.skill-input-07-6{
+  height: 40px;
+  margin-top: 0.3rem;
+  width: 200px;
+  background-color: #b3c7ce;
+  border-radius: 10px;
+  border-width: 1px;
+  padding: 1rem;
+  border-style: solid;
+}
+.in-p-mid, .in-p-top {
+  display: flex;
+  flex-direction: row;
+}

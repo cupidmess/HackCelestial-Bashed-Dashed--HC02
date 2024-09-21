@@ -1,0 +1,380 @@
+body{
+  font-family: "Montserrat", sans-serif;
+}
+.i-1-mp {
+  font-family: "Montserrat", sans-serif;
+  height: 43px;
+  width: 300px;
+  padding-left: 40px;
+  background-color: #D8E6ED;
+  border: 0;
+  border-radius: 49px;
+}
+.nav-mp { 
+  position:sticky;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  padding-top: 0.5rem;
+  background-color: #FAFAFA;
+  height: 70px;
+}
+.logo-mp {
+  height: 60px;
+  margin-left: 6rem;
+
+}
+.r-box-2-mp{
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow */
+
+}
+.r-box-2-mp:hover{
+
+  transform: scale(1); /* Increase size by 10% */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+
+}
+.search-mp {
+  height: 25px;
+  position: absolute;
+  margin-left: 0.5rem;
+  margin-top: 0.55rem;
+}
+.searchbar-mp{
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+.work-mp,.talent-mp {
+  height: 45px;
+  
+}
+.notif-mp{
+  margin-left: 0.3rem;
+  height: 45px;
+}
+.p1-mp,.p2-mp,.p3-mp{ 
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+.p3-mp {
+  margin-left: 0.4rem;
+  width: 60px;
+}
+.p2-mp{
+  width: 62px;
+}
+.con-mp,.msg-mp{ 
+  height: 45px;
+}
+.find_talent-mp, .find_work-mp,.connect-mp,.message-mp,.notification-mp {
+  margin-left: 2.5rem;
+}
+.p4-mp{
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  width: 20px;
+  margin-left: 1rem;
+  font-weight: 600;
+}
+.prof-mp {
+  height: 45px;
+}
+.profile-mp{
+  margin-left: 18rem;
+}
+.main-mp {
+  height: 100%;
+  background-color: #D8E6ED;
+  display: flex;
+  flex-direction: row;
+  font-family: "Montserrat", sans-serif;
+}
+.box-1-mp { 
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  width: 300px;
+  background-color: #FAFAFA; 
+  border: 0;
+  border-radius:10px ; 
+}
+.title-mp {
+  text-align: center;
+}
+.pfp-mp{ 
+  height: 55px;
+  width: 55px;
+  position: absolute;
+  margin-top: 1.8rem;
+  margin-left: 7.5rem;
+}
+.wp-mp {
+  height: 60px;
+  width: 300px;
+  border-top-left-radius:10px ; 
+  border-top-right-radius: 10px;
+}
+.bp-1-mp{
+  margin-top: 1.5rem;
+  font-weight: 600;
+  font-size: 22px;  
+}
+.bp-2-mp-mp{ 
+  font-size: 10px;
+  margin-bottom:1rem ;
+}
+.box1-part2-mp{
+  padding-top: 1rem;
+  border-top: 1px;
+  border-style: solid;
+  border-left-color: #FAFAFA;
+  border-right-color: #FAFAFA;
+  border-top-color:#D8E6ED;
+  border-bottom-color: #D8E6ED;
+  padding-bottom: 1rem;
+}
+.bp-3-mp{ 
+  font-size: 16px;
+  line-height: 2rem;
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.box1-part3-mp {
+  font-size: 18px;
+  margin-top: 1.6rem;
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.coin-mp {
+  height: 15px;
+  margin-left: 0.5rem;
+ 
+}
+.bookmark-mp {
+  height: 20px;
+  margin-right: 1rem;
+}
+.left-mp {
+  margin-left: 6rem;
+  margin-top: 2rem
+}
+.box-3-mp,.box-2-mp{ 
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  width: 300px;
+  background-color: #FAFAFA; 
+  border: 0;
+  border-radius:10px ; 
+  margin-top: 1rem;
+}
+.market-mp{
+  margin-left: 2rem;
+  margin-top: 1rem;
+  height: 45px;
+}
+.card-mp {
+  margin-left: 2rem;
+  margin-top: 1.3rem;
+  height: 45px;
+}
+.b-2-mp,.b-3-mp{
+  margin-top: 1.4rem;
+  margin-left: 0.5rem;
+}
+.box2-p1-mp,.box3-p1-mp {
+  font-weight: 600;
+}
+.box2-p2-mp,.box3-p2-mp{
+  font-size: 13px;
+}
+.right-mp {
+  font-family: "Montserrat", sans-serif;
+  margin-left: 2rem;
+  margin-top: 2rem
+}
+.r-box-1-mp{
+  height: 120px;
+  width: 950px;
+  background-color: #FAFAFA;
+  display: flex;
+  flex-direction: row;
+  border-radius:10px ; 
+}
+.i-2-mp{
+  font-family: "Montserrat", sans-serif;
+  margin-left: 0.5rem;
+  height: 45px;
+  width: 700px;
+  border-radius: 40px;
+  border-color: #D8E6ED;
+  border-style: solid;
+  border-width:1px;
+  padding-left: 1.5rem;
+}
+.i-2-mp:hover {
+  cursor: pointer;
+  background-color: #4285F4;
+  color: white;
+}
+.post-mp {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+}
+.profile1-mp{ 
+  height: 70px;
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+.t-1-mp{
+  margin-top: 0.6rem;
+  font-size: 13px;
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: row;
+  
+}
+.hr-1-mp{
+  margin-top: 1.4rem;
+  margin-bottom: 0.5rem;
+  border-color: rgb(121, 121, 121);
+  border-width: 0.4px;
+}
+.history-mp {
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+}
+.curr-mp {
+  margin-right: 0.5rem;
+  font-weight: 600;
+  
+}
+.past-mp {
+  margin-left: 0.5rem;
+}
+.rb-top-mp { 
+  display: flex;
+  flex-direction: row;
+  margin-left: 3rem;
+  
+}
+.r-box-2-mp,.r-box-3-mp{
+  width: 950px;
+  height: 280px;
+  background-color: #FAFAFA;
+  flex-direction: row;
+  border-radius:10px ; 
+  margin-top: 1rem;
+}
+.rb-pfp-mp {
+  height: 70px;
+  padding-top: 1rem;
+}
+.rb-title-mp{
+  margin-top: 1.2rem;
+  margin-left: 1rem;
+}
+.rb-name-mp{
+  font-weight: 600;
+}
+.rb-def-mp{
+  font-size: 12px;
+}
+.flw-mp {
+  font-size:14px;
+  margin-top: 1.2rem;
+  color: #4285F4;
+  font-weight: 700;
+  margin-left: 27rem;
+  margin-right: 0.7rem;
+}
+.heart-mp {
+  margin-top: 1.1rem;
+}
+.rb-mid-mp {
+  margin-top: 0.3rem;
+  margin-left: 3.4rem;
+}
+.rb-m-tit-mp{
+  font-size: 20px;
+  font-weight: 500;
+}
+.rb-m-des-mp{ 
+  font-size: 10px;
+}
+.rb-m-body-mp {
+  width: 750px;
+  margin-top: 1rem;
+  font-size: 14px;
+}
+.rb-mid-icon-mp {
+  margin-left: 3.3rem;
+  margin-top: 0.6rem;
+  display: flex;
+  flex-direction: row;
+}
+.icon-1-mp{
+  height: 30px;
+  width: 150px;
+  background-color: #D8E6ED;
+  margin-right: 2rem;
+  font-size: 13px;
+  text-align: center;
+  font-weight: 600;
+  padding-top: 15px;
+  border-radius: 30px;
+}
+.rb-mid-end-mp{
+  margin-left: 3.4rem;
+}
+.rb-m-t-mp{
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.5rem;
+  font-size: 13px;
+}
+.rb-m-t1-mp{
+  margin-right: 7rem;
+}
+.rb-m-e-mp{
+  font-size: 10px;
+}
+.rb-end-i-mp{
+  display: flex;
+  flex-direction: row;
+  margin-left: 3.4rem;
+  margin-top: 1.3rem;
+}
+.rb-end-icon1-mp {
+  margin-right: 13rem;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+}
+.logout-mp-button{
+  height: 30px;
+  width: 90px;
+  margin-top: 0.7rem;
+  margin-left: 1rem;
+  background-color: #D8E6ED;
+  color: black;
+  border: 0;
+}
+.logout-mp-button:hover {
+  cursor: pointer;
+  background-color: #4285F4;
+  color: white;
+}
+.time_mp{ 
+  font-size: 8px;
+}

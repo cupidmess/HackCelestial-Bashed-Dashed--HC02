@@ -1,0 +1,165 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.body-023{
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
+.pr-023{
+  margin: 40px 40px 0 70px;
+}
+.hline-023{
+  margin-top: 35px;
+}
+.header-023{
+  text-align: left;
+}
+.head-023{
+  margin: 10px 30px 0px 60px;
+  font-weight: 500;
+}
+.main-023{
+  display: flex;
+  margin-left: 38px;
+  margin-bottom: 9rem;
+}
+.bx1-023{
+  margin: 30px;
+  margin-top: 14px;
+  margin-right: 0;
+  text-align: left;
+}
+.bx1c-023{
+  margin: 10px;
+  margin-left: 0;
+  margin-top: 25px;
+}
+.px1-023{
+  color: black;
+  font-size: 20px;
+}
+.vline-023{
+  width: 2px;
+  height: 370px;
+  background-color: rgb(226, 223, 223);
+  margin: 40px 30px;
+  margin-bottom: 0;
+}
+.k-023{
+  font-size: 28px;
+  color: black;
+  margin-bottom: 25px;
+}
+.war-023{
+  margin-top: 15px;
+  color: black;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.foot-023{
+  height: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: last baseline;
+  margin-right: 15px;
+}
+.button-023{
+  height: 45PX;
+  width: 150px;
+  border-radius: 5px;
+  background-color: #d9e7ef;
+  border: 1px solid #d9e7ef;
+}
+.button-023:hover{
+  cursor: pointer;
+  background-color:#007bff;
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .pr{
+    margin: 20px 20px 0 20px;
+  }
+
+  .head{
+    margin: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .main{
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .bx1{
+    margin: 20px 0;
+  }
+
+  .vline{
+    display: none; /* Hide vertical line on small screens */
+  }
+
+  .bx1c{
+    text-align: center;
+  }
+
+  .k{
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .war{
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .foot{
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  button{
+    width: 100%;
+    max-width: 300px;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .pr{
+    margin: 15px 15px 0 15px;
+  }
+
+  .head{
+    margin: 10px 15px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .bx1c{
+    text-align: center;
+  }
+
+  .k{
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+
+  .war{
+    font-size: 16px;
+    text-align: center;
+  }
+
+  button{
+    width: 100%;
+    font-size: 16px;
+  }
+}
